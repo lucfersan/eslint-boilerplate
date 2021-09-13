@@ -5,6 +5,7 @@
   "author": "Lucas Fernandes <fernandes.lucas11@outlook.com>",
   "license": "MIT",
   "scripts": {
+    "build": "npx tsc",
     "test": "jest --passWithNoTests --noStackTrace --runInBand --no-cache",
     "test:watch": "npm t -- --watch"
   },
