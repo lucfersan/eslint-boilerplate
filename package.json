@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint src tests --ext ts --fix",
+    "lint": "eslint src tests --ext ts",
+    "lint:fix": "npm run lint -- --fix",
     "test": "jest --passWithNoTests --noStackTrace --runInBand --no-cache",
     "test:watch": "npm t -- --watch"
   },
